@@ -244,7 +244,7 @@ if st.session_state.show_info:
     """, unsafe_allow_html=True)
 
 if st.session_state.show_manual:
-      with open("Manual.pdf", "rb") as pdf_file:
+      with open("User_Manual.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
 
         st.markdown("""
