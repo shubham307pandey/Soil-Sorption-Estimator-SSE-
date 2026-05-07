@@ -45,8 +45,8 @@ def std_ad(df: pd.DataFrame, avg, stdev):
 
 #datasets
 
-qsar_tr = pd.read_excel(r"F:\9. Sorption\Curation\EPI SUITE\Tool\Training Set QSPR.xlsx", index_col=0)
-rasar_tr = pd.read_excel(r"F:\9. Sorption\Curation\EPI SUITE\Tool\Training Set q-RASPR.xlsx", index_col=0)
+qsar_tr = pd.read_excel("https://github.com/shubham307pandey/Soil-Sorption-Estimator-SSE-/blob/main/Training%20set%20QSPR.xlsx", index_col=0)
+rasar_tr = pd.read_excel("https://github.com/shubham307pandey/Soil-Sorption-Estimator-SSE-/blob/main/Training%20Set%20q-RASPR.xlsx", index_col=0)
 
 #load_model
 qsar_model = joblib.load("qsar_pls.joblib")
