@@ -1,0 +1,10 @@
+rasar
+numpy
+pandas
+openpyxl
+scikit-learn
+streamlit>=1.40.0
+altair>=5.0.0
+rdkit==2025.09.3
+streamlit_ketcher
+pillow
