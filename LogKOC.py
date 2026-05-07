@@ -212,6 +212,8 @@ if __name__ == "__main__":
 
 if "show_info" not in st.session_state:
     st.session_state.show_info = False
+if "show_manual" not in st.session_state:
+    st.session_state.show_manual = False
 
 st.divider()
 col1, col2, col3 = st.columns([1.5, 6, 1.5])
