@@ -197,7 +197,7 @@ def main():
     st.sidebar.info("""
     - **PLS QSPR Model**: Uses MolLogP, RingCount, fr_nitro_arom, MaxAbsEStateIndex
     - **q-RASPR Model**: Uses RA function(LK)
-    - Structural & Physiochemical descriptor are calculated using RDKit
+    - Structural & Physiochemical descriptors are calculated using RDKit
     """)
 
     st.sidebar.markdown("### Requirements")
